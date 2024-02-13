@@ -469,14 +469,14 @@ img {
 
 /*--FOURTH SECTION--*/
 
-@media  (min-width: 428px) and (max-width: 767px) {
+
      .fourth-section-ourteam {
                width: 428px;
                height: 2232px;
                flex-shrink: 0;
                padding: 96px 82px;
      }
-}
+
 
 @media  (min-width: 428px) and (max-width: 767px) {
      .fourth-section-header {
@@ -563,6 +563,19 @@ img {
           height: 260px;
           background: url(<path-to-image>), lightgray -97.034px -0.927px / 181.897% 251.37% no-repeat;
 }
+
+/*--FIFTH SECTION- CUSTOMERS--*/
+
+@media (min-width: 428px) and (max-width: 767px) {
+     .customers {
+          width: 428px;
+          height: 4926px;
+          flex-shrink: 0;
+          padding: 96px 16px;
+          list-style-type: none;
+     }
+}
+
 
 
 
