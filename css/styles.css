@@ -31,15 +31,7 @@
      --dairy: #fcfcfc;
 }
 
-body {
-     font-family: 'Roboto', sans-serif;
-     color: var(--SLATE, #434455);
-     background-color: var(--WHITE, #fff);
-     font-size: 16px;
-     font-style: normal;
-     line-height: 1.5;
-     letter-spacing: 0.32px;
-}
+
 
 html {
      box-sizing: border-box;
@@ -618,6 +610,71 @@ img {
 
 .customers-list {
      row-gap: 16px;
+}
+
+/*--FOOTER--*/
+
+@media screen and (min-width: 428px) and (max-width: 767px) {
+     .footer-style {
+          width: 428px;
+          height: 664px;
+          flex-shrink: 0;
+          background: var(--NAVY-BLUE, #2E2F42);
+          padding: 96px 15px;
+     }        
+}
+
+.footer-style-container {
+     width: 268px;
+     height: 112px;
+     margin: 0 auto;
+}
+
+.footer-web-studio {
+     margin: 0 auto;
+     display: inline-flex;
+     height: 24px;
+     align-items: center;
+     display: flex;
+     justify-content: center;
+}
+
+.logo-style .link {
+     color: var(--IRIS, #4D5AE5);
+     font-family: Raleway;
+     font-size: 18px;
+     font-style: normal;
+     font-weight: 800;
+     line-height: 21px;
+          /* 116.667% */
+     letter-spacing: 0.54px;
+     text-transform: uppercase;
+}
+
+.footer-studio {
+     color: var(--CLOUD, #F4F4FD);
+          font-family: Raleway;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 800;
+          line-height: 21px;
+          /* 116.667% */
+          letter-spacing: 0.54px;
+          text-transform: uppercase;
+}
+
+.footer-paragraph {
+     color: var(--CLOUD, #F4F4FD);
+     
+          /* Body */
+     font-family: Roboto;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 24px;
+          /* 150% */
+     letter-spacing: 0.32px;
+     margin-top: 16px;
 }
 
 
