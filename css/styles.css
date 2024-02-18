@@ -677,5 +677,43 @@ img {
      margin-top: 16px;
 }
 
+.footer-icon-paragraph {
+     color: #FFF;
+     
+          /* Body Medium */
+     font-family: Roboto;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: 24px;
+          /* 150% */
+     letter-spacing: 0.32px;
+     margin: 0 auto;
+}
+          
+.footer-icon-container {
+     display: flex;
+     align-items: center;
+     width: 208px;
+     height: 80px;
+     gap: 16px;
+     margin: 72px 110px;
+     flex-direction: column;
+     
+}
+
+.footer-icon-list {
+     list-style: none;
+     display: inline-flex;
+     align-items: flex-start;
+     gap: 16px;
+     width: 208px;
+     height: 40px;
+     justify-content: space-between;
+}
+
+.footer-icon-list {
+     fill: var(--IRIS, #4D5AE5);;
+}
 
 
